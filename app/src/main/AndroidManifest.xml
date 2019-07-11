@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.newbaconwars.justindowty.newbaconwars">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:hardwareAccelerated="true"
+        android:allowBackup="true"
+        android:icon="@drawable/bacon"
+        android:label="BACON WARS"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name="com.newbaconwars.justindowty.newbaconwars.StartMenuActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="BACON WARS"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.newbaconwars.justindowty.newbaconwars.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="com.newbaconwars.justindowty.newbaconwars.GameOverActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="GameOverActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="com.newbaconwars.justindowty.newbaconwars.OptionsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="OptionsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="com.newbaconwars.justindowty.newbaconwars.TutorialActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="TutorialActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+    </application>
+
+</manifest>

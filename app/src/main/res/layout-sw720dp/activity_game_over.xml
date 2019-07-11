@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yousuckback"
+    tools:context="com.newbaconwars.justindowty.newbaconwars.justindowty.newbaconwars.justindowty.newbaconwars.GameOverActivity">
+
+    <Button
+        android:id="@+id/retryButton"
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="?attr/colorButtonNormal"
+        android:text="  TRY AGAIN?  "
+        android:textSize="30sp"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/highScoresButton"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="?attr/colorButtonNormal"
+        android:text="  VIEW YOUR HIGH SCORES  "
+        android:textSize="30sp"
+        android:typeface="sans" />
+</RelativeLayout>

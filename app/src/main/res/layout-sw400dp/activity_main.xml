@@ -1,0 +1,296 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    android:id="@+id/activity_main"
+    tools:context="com.newbaconwars.justindowty.newbaconwars.MainActivity">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:weightSum="1" >
+
+            <ImageView
+                android:id="@+id/leftScreen"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                app:srcCompat="@android:color/transparent" />
+
+
+            <ImageView
+                android:id="@+id/rightScreen"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                app:srcCompat="@android:color/transparent" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/bacon"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/bacon"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView1"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView2"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView3"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView4"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView5"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView6"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView7"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView8"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView9"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView10"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView11"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView12"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView13"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView14"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView15"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView16"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView17"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView18"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView19"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView20"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView21"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView22"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView23"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/faceView24"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+        <ImageView
+            android:id="@+id/eggView"
+            android:layout_width="90dp"
+            android:layout_height="110dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/eggView2"
+            android:layout_width="90dp"
+            android:layout_height="110dp"
+            app:srcCompat="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/headCountText"
+            android:textSize="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:textColor="@android:color/darker_gray"
+            android:typeface="sans"/>
+
+        <TextView
+            android:text="Current Score"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/headCountText"
+            android:layout_alignStart="@+id/headCountText"
+            android:id="@+id/currentScoreTitle"
+            android:typeface="sans"/>
+
+        <TextView
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/eggCountText"
+            android:textSize="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@android:color/darker_gray"
+            android:typeface="sans"/>
+
+        <TextView
+            android:text="Egg Count"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/eggCountText"
+            android:layout_alignStart="@+id/eggCountText"
+            android:id="@+id/eggCountTitle"
+            android:typeface="sans"/>
+
+
+</RelativeLayout>

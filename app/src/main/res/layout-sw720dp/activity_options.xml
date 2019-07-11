@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_options"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:stretchMode="spacingWidthUniform"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:columnCount="3"
+    tools:context="com.newbaconwars.justindowty.newbaconwars.justindowty.newbaconwars.justindowty.newbaconwars.OptionsActivity">
+
+    <TextView
+        android:id="@+id/chooseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="CHOOSE YOUR BACON"
+        android:textColor="#e6e6e6"
+        android:textSize="42sp"
+        android:typeface="sans" />
+
+
+    <GridLayout
+        android:id="@+id/eggAndCollectGrid"
+        android:layout_below="@+id/chooseText"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:columnCount="2"
+        android:rowCount="1">
+
+        <TextView
+            android:id="@+id/collectEggsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="COLLECT EGGS TO\nUNLOCK AVATARS"
+            android:textColor="#e6e6e6"
+            android:textSize="28sp"
+            android:typeface="sans" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_column="0"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/egg"/>
+    </GridLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/tutorialButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Tutorial"
+        android:textSize="24sp"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/scoresButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:text="Scores"
+        android:textSize="24sp"
+        android:typeface="sans" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scoresButton"
+        android:layout_below="@+id/eggAndCollectGrid"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fillViewport="false">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/baconView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="2"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/bacon" />
+
+            <ImageView
+                android:id="@+id/pennywiseView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_row="4"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+            <ImageView
+                android:id="@+id/quagmireView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="6"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+            <ImageView
+                android:id="@+id/linkView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="2"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+            <ImageView
+                android:id="@+id/greenView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_row="3"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+            <ImageView
+                android:id="@+id/cloudView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="4"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+            <ImageView
+                android:id="@+id/jasonView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="5"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+            <ImageView
+                android:id="@+id/buttheadView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="5"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+            <ImageView
+                android:id="@+id/finnView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="4"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+            <ImageView
+                android:id="@+id/greenrangerView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="3"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+            <ImageView
+                android:id="@+id/hoganView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="3"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+            <ImageView
+                android:id="@+id/jesusView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_row="5"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+            <ImageView
+                android:id="@+id/darthView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_row="2"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+            <ImageView
+                android:id="@+id/snoopView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="6"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+            <ImageView
+                android:id="@+id/squidwardView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_row="6"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+            <ImageView
+                android:id="@+id/geneView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="7"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+            <ImageView
+                android:id="@+id/blackknightView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="7"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+            <ImageView
+                android:id="@+id/kevinView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_row="7"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+            <ImageView
+                android:id="@+id/michaelView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="8"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+            <ImageView
+                android:id="@+id/popeView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_row="8"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+            <ImageView
+                android:id="@+id/kermitView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_row="8"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/mysterybacon" />
+
+        </GridLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

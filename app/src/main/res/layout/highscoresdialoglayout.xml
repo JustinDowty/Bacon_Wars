@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bacondialogback">
+
+    <TextView
+        android:id="@+id/highScoresTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textSize="40dp"
+        android:textColor="@android:color/white"
+        android:gravity="start|center_vertical"
+        android:background="@android:color/black"
+        android:text="YOUR SCORES"/>
+
+        <TextView
+            android:id="@+id/scoresText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/highScoresTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/white"
+            android:text="340"
+            android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/scoresText"
+        android:background="@android:color/black"
+        android:text="CLOSE"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/globalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/scoresText"
+        android:background="@android:color/black"
+        android:text="   GLOBAL SCORES   "
+        android:typeface="sans" />
+
+</RelativeLayout>
